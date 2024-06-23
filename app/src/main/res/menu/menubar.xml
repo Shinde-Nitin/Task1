@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    >
+
+
+    <item
+        android:id="@+id/menuSettings"
+        android:icon="@drawable/icon_alert"
+        android:title="Settings"
+        app:showAsAction="ifRoom"></item>
+    <item
+        android:id="@+id/menuHelp"
+        android:title="Help"
+        app:showAsAction="never"
+        ></item>
+    <item
+        android:id="@+id/menuLogOut"
+        android:title="Log Out"
+        app:showAsAction="never"
+        ></item>
+
+    <item
+        android:id="@+id/menuNotif"
+        android:title="Search"
+        android:icon="@drawable/icon_alert"
+        app:showAsAction="always"
+        ></item>
+
+
+
+
+    <item
+        android:id="@+id/menuCart"
+        android:icon="@drawable/icon_cart"
+        android:title="My Cart"
+        app:showAsAction="always"
+        ></item>
+    <item
+        android:title="Account"
+        android:id="@+id/menuAccount"
+        app:showAsAction="always"
+        android:icon="@drawable/baseline_account_circle_24"
+        ></item>
+</menu>
